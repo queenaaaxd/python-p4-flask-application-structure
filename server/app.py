@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__) # __name__, which refers to the name of the current module
 
-@app.route("/")
+@app.route("/") # decorator
 def index():
     return "<h1>Welcome to my page!</h1>"
 
